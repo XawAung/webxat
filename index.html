@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <main id="nav_container">
+        <div id="nav_content">
+            <div id="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <ul id="list">
+                <li class="nav_item">
+                    <a class="nav_link" href="#"><i class="fas fa-home"></i>Home</a>
+                </li>
+                
+                <li class="nav_item">
+                    <a class="nav_link" href="staffSignup.php"><i class="fas fa-user-plus"></i>Sign Up</a>
+                </li class="nav_item">
+    
+                <li class="nav_item">
+                    <a class="nav_link" href="staffLogin.php"><i class="fas fa-sign-in-alt"></i>Sign In</a>
+                </li>
+    
+                <li class="nav_item">
+                    <a class="nav_link" href="productDisplay.php"><i class="fab fa-product-hunt"></i>Product Display</a>
+                </li>
+    
+                <li class="nav_item">
+                    <a class="nav_link" href="logOut.php"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+                </li>
+
+                <li id="search_box" class="nav_item">
+                    <div id="search_div">
+                        <input class="nav_link" type="text" name="search" id="search" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <!--Hero Section-->
+    <div id="main">
+            <div id="welcome_section">
+                <img src="images/IMG_20200126_160340.jpg" alt="">
+                <div>
+                    <h1>Welcome My dear!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore et incidunt, dolores reprehenderit quae molestiae qui corrupti nemo dolorem alias culpa vel placeat optio at dolor voluptatem saepe non nobis!</p>
+                </div>
+            </div>
+    
+            <div id="product_section">
+                <div id="first_product">
+                    <div id="first_product_container">
+                        <div class="first_product_box">
+                            <img src="images/tech_camera.jpg" style="display: block; width: 100%; margin: auto; border-bottom-left-radius: 25px; height: 100%;">
+                        </div>
+                        <div class="first_product_box">
+                            <img src="images/tech_mic.jpg" style="display: block; width: 100%; margin: auto; height: 100%;">
+                        </div>
+                        <div id="first_product_content" class="first_product_box">
+                            <div id="first_product_content_content">
+                                <h3>My product</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quod doloribus non alias, dolore libero. Fugit, aliquam harum quisquam laudantium cum, dolore assumenda placeat itaque facere, accusantium nam porro perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis at omnis, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second_product" class="test">
+                    <div id="grid">
+
+                        <div class="grid_box">
+                            <div class="grid_box_img">
+                                <img src="images/wedding_location.jpg">
+                            </div>
+                            <div class="grid_box_content">
+                                <h3>Heading</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque odio magnam sunt cumque dolor consectetur, incidunt recusandae iure eum, officia labore in provident dicta, tempore tempora deleniti nam reiciendis nihil. </p>
+                            </div>
+                            <button class="grid_box_btn">More details</button>
+                        </div>
+
+                        <div class="grid_box">
+                            <div class="grid_box_img">
+                                <img src="images/coffeehouse.jpg">
+                            </div>
+                            <div class="grid_box_content">
+                                <h3>Heading</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam in inventore placeat repellendus quo sint, commodi veniam optio libero dolore eius nostrum nemo earum impedit iure quisquam aliquam hic culpa?</p>
+                            </div>
+                            <button class="grid_box_btn">More details</button>
+                        </div>
+
+                        <div class="grid_box">
+                            <div class="grid_box_img">
+                                <img src="images/coffeeshop.jpg">
+                            </div>
+                            <div class="grid_box_content">
+                                <h3>Heading</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae veritatis culpa voluptate. Deserunt in natus vel. Officiis animi voluptatum sequi nobis modi voluptatibus. Sequi unde libero delectus odit non!</p>
+                            </div>
+                            <button class="grid_box_btn">More details</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="location_section">
+                <div id="location_content">
+                    <div class="location_item">
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/WDsHmnQNU1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                        
+                    <div class="location_item">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.8074993060595!2d97.5650261148602!3d25.37776733057889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDIyJzQwLjAiTiA5N8KwMzQnMDIuMCJF!5e0!3m2!1sen!2sus!4v1630196433031!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+
+    
+    </div>
+
+    <div id="detail">
+        <div class="detail_box">
+            <div class="detail_box_content">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia expedita itaque consectetur veritatis, nemo reprehenderit non in et velit sed enim ducimus facere dolor! Ut at perferendis repellendus explicabo! Quos.</p>
+            </div>
+        </div>
+        <div class="detail_box" id="contact">
+            <div class="detail_box_content" id="contact_content">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="detail_box" id="subscr">
+            <div class="detail_box_content" id="subscr_content">
+                <h3>Subscribe Now</h3>
+                <input type="text" name="fname" id="fname" placeholder="Enter your name...">
+                <input type="number" name="phno" id="phno" placeholder="Phone number...">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="button" value="Subscribe">
+            </div>
+        </div>
+        <div class="detail_box">
+            <div class="detail_box_content" id="soc_content">
+                <h3>Social Media</h3>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>CopyRight. All Right Reserved. Registered</p>
+    </footer>
+
+    <script src="waypoint/lib/noframework.waypoints.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
